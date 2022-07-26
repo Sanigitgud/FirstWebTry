@@ -1,0 +1,80 @@
+.wrapper {
+
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 33% 33% 33%;
+}
+
+h1 {
+  background-color: darkgray;
+  text-align: center;
+  color: darkred
+}
+
+h3 {
+  color: crimson;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(147, 17, 63);
+  font-size: larger;
+}
+#img-horse{
+  width:60% ;
+}
+
+.box1 {
+  background-color: beige;
+  text-align: center;
+  grid-column-start: 2;
+
+  grid-row-start: 1;
+  grid-row-end: 4;
+  position: relative;
+}
+
+.box2 {
+  text-align: center;
+  grid-column-start: 1;
+
+  grid-row-start: 2;
+  position: relative;
+}
+
+.box3 {
+
+  grid-column-start: 3;
+
+  grid-row-start: 1;
+  grid-row-end: 3;
+  position: relative;
+}
+
+.box4 {
+  text-align: center;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  position: absolute;
+  top: 180px;
+  left: 2%;
+}
+
+.box5 {
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  position: absolute;
+  top: 180px;
+  right: 2%;
+}
+#img-death:hover{
+  background-color: blue;
+}
+footer {
+  text-align: center;
+}
